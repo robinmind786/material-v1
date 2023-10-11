@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-purple-light-100: #ece1ff;
+  --color-purple-light-200: #d8c3fe;
+  --color-purple-light-300: #c5a5fe;
+  --color-purple-light-400: #b187fd;
+  --color-purple-light-100: #ece1ff;
+  --color-purple-light-500: #9e69fd;
+  --color-purple-light-600: #7e54ca;
+  --color-purple-light-700: #5f3f98;
+  --color-purple-light-800: #3f2a65;
+  --color-purple-light-900: #201533;
+
+  --color-purple-main-100: #ece1ff;
+  --color-purple-main-200: #d8c3fe;
+  --color-purple-main-300: #c5a5fe;
+  --color-purple-main-400: #b187fd;
+  --color-purple-main-500: #9e69fd;
+  --color-purple-main-600: #7e54ca;
+  --color-purple-main-700: #5f3f98;
+  --color-purple-main-800: #3f2a65;
+  --color-purple-main-900: #201533;
+
+  --color-purple-dark-100: #e6dbf9;
+  --color-purple-dark-200: #ccb7f2;
+  --color-purple-dark-300: #b393ec;
+  --color-purple-dark-400: #996fe5;
+  --color-purple-dark-500: #804bdf;
+  --color-purple-dark-600: #663cb2;
+  --color-purple-dark-700: #4d2d86;
+  --color-purple-dark-800: #331e59;
+  --color-purple-dark-900: #1a0f2d;
+
+  --color-white-500: #fff;
+
+  --font-family-body: "Inter", sans-serif;
+  --font-family-heading: "Montserrat", sans-serif;
+  --font-weight-heading: 700;
+  --font-size-heading: 3.5rem;
+  --line-height-heading: 1.375;
+
+  --breakpoint-xs: 0px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 992px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1920px;
+}
+
+body {
+  background-color: red;
+}
