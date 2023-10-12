@@ -153,12 +153,80 @@ InputField.propTypes = {
 };
 
 export default InputField;
-// Docs
+
 /*
-<InputField label="Required Field" type="text" required />
-<InputField label="Disabled Field" type="text" disabled />
-<InputField label="Success Field" type="text" success />
-<InputField label="Error Field" type="text" error />
-<InputField label="Warning Field" type="text" warning />
-<InputField label="Password" type="password" />
+InputField Component
+The InputField component is a versatile styled-component designed to create customizable input fields with labels, and optional password visibility toggle. It allows you to create input fields for various use cases, such as login forms, registration forms, or any data input.
+
+Usage
+To use the InputField component, follow the steps below:
+
+Import the InputField component:
+
+import InputField from "./InputField";
+Create an InputField instance by providing the required and optional props:
+
+<InputField
+  label="Required Field"
+  type="text"
+  required
+/>
+<InputField
+  label="Disabled Field"
+  type="text"
+  disabled
+/>
+<InputField
+  label="Success Field"
+  type="text"
+  success
+/>
+<InputField
+  label="Error Field"
+  type="text"
+  error
+/>
+<InputField
+  label="Warning Field"
+  type="text"
+  warning
+/>
+<InputField
+  label="Password"
+  type="password"
+/>
+Props
+The InputField component accepts the following props:
+
+label (string, required): Specifies the label for the input field.
+
+type (string, required): Specifies the type of input field, such as "text," "password," etc.
+
+required (boolean, optional): Indicates whether the input is required.
+
+disabled (boolean, optional): Disables the input field.
+
+success (boolean, optional): Adds a success style to the input field.
+
+error (boolean, optional): Adds an error style to the input field.
+
+warning (boolean, optional): Adds a warning style to the input field.
+
+name (string, optional): Sets the name attribute for the input field.
+
+onChange (function, optional): Allows you to define a custom onChange function for the input field.
+
+Features
+The InputField component provides a label for the input field that floats when the input field has content.
+
+It supports various styles based on props such as required, disabled, success, error, and warning.
+
+For password fields, it includes an eye icon to toggle password visibility.
+
+The component's label color and background color change when the input field has content.
+
+Styling
+The InputField component uses styled-components for styling, making it customizable and adaptable to your application's theme. You can easily update the colors, fonts, and other styles by extending the styled-components.
+
+This documentation provides an overview of the InputField styled-component, its props, and how to use it in your React application. You can extend this documentation to include more details and examples based on your specific use case.
 */

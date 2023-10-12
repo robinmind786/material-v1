@@ -270,3 +270,81 @@ FontStyle.propTypes = {
 };
 
 export default FontStyle;
+
+/*
+FontStyle Component
+The FontStyle component is a versatile styled-component designed to provide fine-grained control over the typography of text elements. It allows you to define the font size, line height, font weight, and other style properties for various text components.
+
+Usage
+To use the FontStyle component, follow the steps below:
+
+Import the FontStyle component:
+
+
+import FontStyle from "./FontStyle";
+Create a FontStyle instance by providing the required and optional props:
+
+
+<FontStyle
+  $variant="h1"
+  $color="#333"
+  $m="10px 0"
+  $p="0"
+  $mb="20px"
+  component="h1"
+  className="custom-class"
+  style="text-transform: uppercase;"
+>
+  Your Text Goes Here
+</FontStyle>
+Props
+The FontStyle component accepts the following props:
+
+$variant (string, required): Specifies the typography variant. Available variants are:
+
+"h1"
+"h2"
+"h3"
+"h4"
+"h5"
+"h6"
+"subtitle1"
+"subtitle2"
+"body1"
+"body2"
+"button"
+"caption"
+"overline"
+$color (string, optional): Sets the color of the text.
+
+$m (string, optional): Defines the margin for the text element.
+
+$p (string, optional): Defines the padding for the text element.
+
+$ml (string, optional): Sets the left margin for the text element.
+
+$pl (string, optional): Sets the left padding for the text element.
+
+$mb (string, optional): Sets the bottom margin for the text element.
+
+$pb (string, optional): Sets the bottom padding for the text element.
+
+$mr (string, optional): Sets the right margin for the text element.
+
+$pr (string, optional): Sets the right padding for the text element.
+
+$mt (string, optional): Sets the top margin for the text element.
+
+$pt (string, optional): Sets the top padding for the text element.
+
+component (string, optional): Specifies the HTML element for the text. Default is a div.
+
+className (string, optional): Adds a custom class name to the text element.
+
+style (string, optional): Allows you to add custom CSS styles to the text element.
+
+Styling
+The FontStyle component allows you to fine-tune the typography of text elements, including font size, line height, font weight, color, margin, padding, and more. You can use it to create consistent and flexible typography across your application.
+
+This documentation provides an overview of the FontStyle styled-component, its props, and how to use it in your React application. You can extend this documentation to include more details and examples based on your specific use case.
+*/
